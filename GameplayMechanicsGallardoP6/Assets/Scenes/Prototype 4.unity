@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748171, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -275,10 +275,10 @@ MonoBehaviour:
   powerupIndicator: {fileID: 785617861}
   currentPowerUp: 0
   rocketPrefab: {fileID: 3642518795230500146, guid: 7b2695d4b4a302a4baf96cbd7a3b50f5, type: 3}
-  hangTime: 0
-  smashSpeed: 0
-  explosionForce: 0
-  explosionRadius: 0
+  hangTime: 1
+  smashSpeed: 10
+  explosionForce: 50
+  explosionRadius: 10
 --- !u!1001 &206425977
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -608,6 +608,7 @@ MonoBehaviour:
   powerupPrefabs:
   - {fileID: 8715886863323886298, guid: 7efdcd8b08767e948879e79a598fa2bc, type: 3}
   - {fileID: 8715886863323886298, guid: 45f1596170d61364a82f1e852ba1ea2d, type: 3}
+  - {fileID: 8432238046519948449, guid: e07f445a493f13c44a381f85042080a7, type: 3}
   enemyCount: 0
   waveNumber: 1
 --- !u!4 &785465461
